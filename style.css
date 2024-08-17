@@ -1,0 +1,165 @@
+:root {
+ --background-color: #EDECF1;
+ --red: #C10A0B;
+}
+* {
+ font-family: 'Inter';
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ background-color: var(--background-color);
+}
+.container {
+ width: 92%;
+ margin: auto;
+}
+/* ------------------ */
+.toolbar {
+ background-color: white;
+ display: flex;
+ justify-content: space-between;
+ padding: 18px 48px;
+ border-radius: 40px;
+ margin: 20px 0 25px;
+}
+.logo {
+ width: 173px;
+}
+.hamburger img {
+ display: block;
+}
+.hamburger img:nth-child(2){
+ margin: 4px 0;
+}
+nav a {
+ text-decoration: none;
+ color: black;
+}
+nav {
+ padding: 11px 0;
+}
+.hamburger {
+ opacity: 0;
+}
+h1 {
+ font-size: 58px;
+ text-align: center;
+ font-family: 'Inter 28pt';
+ font-weight: bold;
+ font-style: normal;
+ width: fit-content;
+ margin: auto;
+ position: relative;
+}
+h1 img {
+ position: absolute;
+ right: -80px;
+ bottom: 23px;
+}
+h1 span {
+ color: var(--red);
+ font-family: 'Inter 28pt';
+ font-weight: bold;
+ font-style: normal;
+
+}
+.info-nk02, .info-nk01 {
+ display: block;
+}
+.info-cont {
+ display: flex;
+ justify-content: space-between;
+ padding-top: 35px;
+}
+.info-nk01 {
+ width: 45.15%;
+}
+.info-nk02 {
+ width: 22.57%;
+}
+.info-text {
+ width: 27%;
+}
+.shop {
+ display: flex;
+ justify-content: space-between;
+}
+.shop, .feature {
+ background-color: var(--red);
+    border-radius: 48px;
+    padding: 20px 25px;
+    color: white;
+}
+.shop a {
+ text-decoration: none;
+ color: white;
+ font-size: 28px;
+ font-family: 'Inter 28pt';
+ font-weight: bold;
+}
+.shop img {
+ height: 100%;
+}
+.feature p span {
+ font-weight: bolder;
+ font-size: 19px;
+}
+.feature p  {
+ font-size: 17px;
+}
+.feature h2 {
+ font-family: 'Inter 28pt';
+ font-weight: bold;
+ margin-bottom: 15px;
+ font-size: 28px;
+}
+.feature  b {
+ display: block;
+ text-align: right;
+ padding: 5px 0 0  0 ;
+}
+.feature {
+ padding: 25px;
+ margin-top: 15px;
+ height: 81%;
+}
+video {
+    border-radius: 48px;
+}
+hr {
+ background-color: var(--red);
+ height: 46px;
+ width: 100%;
+ margin: 32px 0;
+ border-radius: 48px;
+ border: 2ps solid var(--red);
+}
+/* ------------------- */
+.cooming-cont h3 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Inter 28pt';
+    font-weight: bold;
+}
+.cooming-cont {
+    margin-bottom: 32px;
+}
+.cooming-cont h3 span {
+    text-align: center;
+    font-size: 50px;
+    color: var(--red);
+    font-family: 'Inter 28pt';
+    font-weight: bold;
+}
+/* ------------------- */
+footer {
+    background-color: var(--red);
+    padding: 15px 0;
+}
+footer h2 {
+    color: white;
+    text-align: center;
+}
+
